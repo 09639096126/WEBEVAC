@@ -1,0 +1,2 @@
+// Use the first URL for production and the second URL for development (local)
+export const BASE_URL = process.env.NODE_ENV === 'production' ? "https://evacuation.onrender.com" : "http://127.0.0.1:8000";
